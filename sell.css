@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+body{
+  width: 100%;
+  height: auto;
+}
+
+/* img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+} */
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li{
+  list-style: none;
+}
+
+/* navbar */
+#navbar{
+  background-color: rgb(9, 144, 255);
+  overflow: auto ;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  /* padding: 0 20%; */
+}
+
+#navbar a{
+  color: #fff;
+}
+
+#navbar .logo{
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+
+#navbar .login{
+  /* margin-top: 18px; */
+  padding: 18px 5px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#navbar .login a:hover{
+  color: #333;
+  background: ;
+}
+
+#navbar .logo span,
+#navbar .logo i{
+  color: #333;
+}
+
+#navbar .nav-links{
+  display: flex;
+}
+#navbar .nav-links li{
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#navbar .nav-links li a{
+ display: inline-block;
+ padding: 20px 8px;
+ transition: all 0.2s ease-in;
+}
+
+#navbar .nav-links li:last-child{
+  margin-right: 0;
+}
+
+#navbar .nav-links li:hover{
+  background-color: lightgray ;
+}
+
+#navbar .nav-links li a:hover{
+  color: #333;
+}
+
+
+.search-bar {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.search-bar input[type="text"] {
+  width: 18.75rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #003060;
+}
+
+
+.property-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.property-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.1);
+  width: 18.75rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.property-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.property-card h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.property-card p {
+  margin: 0.25rem 0;
+}
+
+.property-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.property-card a:hover {
+  background-color: #003060;
+}
+
+.property-detail {
+  max-width: 43.75rem;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.property-detail img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.property-detail p {
+  margin: 0.5rem 0;
+}
+
+.property-detail button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.property-detail button:hover {
+  background-color: #003060;
+}
+
+@media (max-width: 37.5rem) {
+  .property-listings {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .property-card {
+    width: 90%;
+  }
+}
+
+/* styles for rent.html */
+form {
+  max-width: 37.5rem;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.1);
+}
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #003060;
+}
+
+/* footer */
+footer{
+  background: rgb(9, 144, 255);
+  text-align: center;
+}
+
+footer .lead{
+  margin-bottom: 0;
+  color: #fff;
+  padding: 2px;
+}
