@@ -1,0 +1,26 @@
+#about{
+    margin-top: 80px;
+}
+
+.about-boxes1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-boxes1 .about-image{
+    width: 450px;
+    height: 350px;
+    background: url(./images/about-img1.jpeg) no-repeat center center/cover;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.about-boxes1 .about-content{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
