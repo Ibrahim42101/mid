@@ -1,6 +1,11 @@
 #about{
     margin-top: 80px;
 }
+.current-link{
+    color: #333 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
 
 .about-boxes1{
     margin-top: 40px;
