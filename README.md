@@ -10,7 +10,7 @@ PakEstate Website - README
  Additional Tools: Responsive Design Frameworks (e.g., Bootstrap or custom CSS)
  Installation
  1. Clone the repository (if available):
-   git clone https://github.com/yourusername/pakestate.git
+   git clone https://github.com/Ibrahim42101/mid
  2. Navigate to the project directory:
    cd pakestate
  PakEstate Website - README
