@@ -39,7 +39,7 @@ PAK Estate is a modern, responsive real estate website designed to help users fi
 
 ## Contact
 
-For support or inquiries, please contact:
+For Support or inquiries, please contact:
 
 - Email: support@PakEstate.com
 - Phone: +123-456-7890
