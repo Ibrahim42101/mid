@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PAK Estate
 
 PAK Estate is a modern, responsive real estate website designed to help users find their ideal home. The website features multiple pages including home, rent, sell, buy, about, and login, providing a comprehensive platform for real estate needs.
