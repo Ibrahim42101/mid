@@ -33,7 +33,7 @@ PAK Estate is a modern, responsive real estate website designed to help users fi
 
 ## How to View
 
-1. Clone or download the repository.git clone https://github.com/Ibrahim42101/mid
+1. Clone or download the repository.git clone https://github.com/Ibrahim42101/mid.git
 2. You can open index.html directly in a browser or serve it using a local development server. Usage Visit https://pakestate.netlify.app to view the live website. Users can browse and explore property listings with ease across different regions. Contributing If you'd like to contribute to PakEstate, feel free to fork the repository and submit a pull request. License This project is open-source and available under the MIT License.
 3. Navigate through the pages using the navigation bar.
 
